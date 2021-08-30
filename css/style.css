@@ -1,0 +1,464 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.topnav {
+    position: relative;
+}
+
+.topnav__menu {
+    height: 51px;
+    background-color: #212121;
+    position: fixed;
+    display: block;
+    width: 100%;
+    z-index: 10;
+}
+
+.topnav__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    align-items: center;
+    padding: 15px 70px;
+}
+
+.topnav__link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.topnav__item {
+    margin: 0 auto;
+    border-right: 2px solid #000;
+    padding-right: 27px;
+}
+
+.subheader {
+    position: absolute;
+    top: 51px; left: 0;
+    width: 100%;
+    height: 84px;
+    background-color: rgba(0,0,0,.6);
+}
+
+.subheader__icontext {
+    opacity: 0.5;
+    font-size: 13px;
+    font-weight: 100;
+    color: #fff;
+    margin-top: 6px;
+}
+
+.subheader__top, .subheader__calling, .subheader__button {
+    margin-top: 16px;
+}
+
+.subheader__calling {
+    text-align: right;
+}
+
+.subheader__callus {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.subheader__number {
+    color: #fff;
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.subheader__button {
+    border-radius: 5px;
+    margin-left: 30px;
+    width: 178px; height: 52px;
+    background-image: linear-gradient(0.0deg, #1eacc7 0%, #4ce2ff 100%);
+    text-transform: uppercase;
+    border: none;
+    font-weight: 400;
+    color: #fff;
+    font-size: 14px;
+    box-shadow: inset 0px -3px 0px 0px rgba(0,0,0,0.11);
+}
+
+.partners {
+    background: url("../bg/top_background.png") center center/cover no-repeat;
+    min-height: 799px;
+}
+
+.maintext {
+    text-align: center;
+    padding: 151px 0 132px 0;
+    color: #fff;
+}
+
+.maintext__title {
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.maintext__subtitle {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.maintext__text {
+    margin-top: 23px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.first {
+    text-indent: 25px;
+}
+
+.maintext__button {
+    margin-top: 115px;
+    width: 265px; height: 69px;
+    background-image: linear-gradient(0.0deg, #1eacc7 0%, #4ce2ff 100%);
+    border: none;
+    box-shadow: inset 0px -4px 0px 0px rgba(0,0,0,0.11);
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.reasons {
+    padding: 71px 0 65px 0;
+}
+
+.cards__container {
+    height: 113px; width: 113px;
+    background-color: #1eacc7;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.cards__text { 
+    max-width: 341px;
+}
+
+.reasons__title {
+    text-align: center;
+    font-size: 11px;
+    font-weight: 100;
+    text-transform: uppercase;
+    width: 124px; height: 24px;
+    background-color: #000;
+    color: #fff;
+    margin: 0 auto;
+    padding-top: 6px;
+}
+
+.reasons__subtitle {
+    margin: 38px 0 40px 0;
+    font-weight: 700;
+    color: #222222;
+    text-transform: uppercase;
+    font-size: 38px;
+    text-align: center;
+}
+
+.cards__text {
+    font-size: 15px;
+    font-weight: 300;
+    color: #202020;
+    line-height: 21px;
+    text-align: justify;
+}
+
+.cards__text span {
+    font-weight: 400;
+    color: #1eacc7;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: left;
+}
+
+.col-md-6 {
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards__container {
+    margin-right: 26px;
+}
+
+.cards {
+    justify-content: center;
+}
+
+.mobile {
+    height: 863px;
+}
+
+.mobile__title {
+    text-align: center;
+    font-size: 11px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #000;
+    margin: 0 auto;
+    width: 112px; height: 24px;
+    padding-top: 5px;
+}
+
+.mobile__subtitle {
+    margin: 38px auto 0;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+    text-align: center;
+}
+
+.mobile__text {
+    margin: 19px auto 0;
+    font-size: 17px;
+    font-weight: 400;
+    color: #222222;
+    text-align: center;
+}
+
+.mobile__cards {
+    margin-top: 32px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 22px;
+}
+
+.col-md-4 {
+    width: 320px; height: 280px;
+    margin-bottom: 19px;
+    text-align: justify;
+}
+
+#one {background: url("../img/mobile_1.png") center center/cover no-repeat;}
+#two {background: url("../img/mobile_2.png") center center/cover no-repeat;}
+#three {background: url("../img/mobile_3.png") center center/cover no-repeat;}
+#four {background: url("../img/mobile_4.png") center center/cover no-repeat;}
+#five {background: url("../img/mobile_5.png") center center/cover no-repeat;}
+#six {background: url("../img/mobile_6.png") center center/cover no-repeat;}
+
+.card__title {
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-top: 91px;
+}
+
+.plus {
+    width: 26px;
+    height: 26px;
+    background-color: #000000;
+    border-radius: 100%;
+    margin: 75px auto 0;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.plus img {
+    width: 14px; height: 14px;
+    padding: 0;
+}
+
+.choiseone {
+    height: 499px;
+    background-color: #070716;
+    padding: 57px 0 138px 0;
+}
+
+.choisetwo {
+    height: 397px;
+    background-color: #fff;
+    padding-top: 217px;
+}
+
+.choise__title {
+    font-size: 11px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #070716;
+    margin: 0 auto;
+    width: 112px;
+    height: 24px;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.choise__subtitle {
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.choise__text {
+    font-size: 17px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.choise__img {
+    display: block;
+    margin: 56px auto 0;
+}
+
+.choisetwo__text {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 300;
+    color: #222222;
+}
+
+.uslovia {
+    height: 919px;
+    padding: 68px 0 84px 0;
+}
+
+.list__container {
+    justify-content: center;
+    align-items: center;
+}
+
+.uslovia__title {
+    font-size: 11px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+.uslovia__subtitle {
+    font-size: 38px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+    margin-top: 33px;
+}
+
+.blue {
+    font-size: 22px;
+    font-weight: 400;
+    color: #1ca8c3;
+}
+
+.red {
+    font-size: 22px;
+    font-weight: 400;
+    color: #ff5656;
+}
+
+.list__item {
+    font-size: 17px;
+    font-weight: 300;
+    color: #222222;
+    
+}
+
+.list__text {
+    font-size: 17px;
+    font-weight: 300;
+    color: #1ca8c3;
+}
+
+.list__list {
+    padding-left: 15px;
+}
+
+.redlist {
+    /* list-style-image: url('../icons/icon_uslovia_2.png'); */
+    list-style-type: none;
+    background: url("../icons/icon_uslovia_2.png") left center no-repeat;
+    padding-left: 28px;
+    padding-top: 10px;
+}
+
+.bluelist {
+    list-style-type: none;
+    background: url("../icons/icon_uslovia_1.png") left center no-repeat;
+    padding-left: 28px;
+    padding-top: 10px;
+}
+
+.alltheworld {
+    height: 717px;
+    background: url("/img/bg_footer.png") center center/cover no-repeat;
+    padding: 49px 0;
+}
+
+.alltheworld__title {
+    width: 76px;
+    height: 24px;
+    background-color: #ffffff;
+    font-family: Roboto;
+    font-size: 11px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #070716;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 6px;
+}
+
+.alltheworld__subtitle {
+    margin: 0;
+    margin-top: 32px;
+    font-size: 38px;
+    line-height: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+}
+
+.alltheworld__text {
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+}
+
+.alltheworld__towns {
+    margin-top: 486px;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #1fbad6;
+    text-align: center;
+}
+
+.alltheworld__towns a {
+    text-decoration: none;
+}
