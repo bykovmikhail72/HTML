@@ -86,6 +86,8 @@
 
 @media (max-width: 767px)
     .topnav
+        &__menu
+            height: 30px
         &__list
             position: fixed
             flex-direction: column
@@ -98,6 +100,7 @@
             padding: 20px 15px
             background-color: rgba(0,0,0, .8)
             transition: 0.5s all
+            text-align: center
             &-active
                 left: 0
         &__link
@@ -106,6 +109,30 @@
             border: none
             padding-right: 0
             margin-top: 15px
+    .hamburger
+        display: block
+        position: absolute
+        top: 50%
+        right: 10px
+        transform: translateY(-50%)
+        width: 20px
+        height: 12px
+        span
+            display: block
+            width: 100%
+            height: 2px
+            background-color: #fff
+            margin-bottom: 2px
+            transition: 0.5s all
+        &-active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
     .mobile
         &__item
             width: 290px
@@ -165,3 +192,97 @@
         &__markets
             order: 2
             margin-top: 20px
+@media (max-width: 575px)
+    .subheader
+        height: 60px
+        top: 30px
+        &__iconimg
+            width: 130px
+            height: 15px
+            position: absolute
+            top: 23px
+            left: 15px
+        &__icontext
+            display: none
+        &__callus
+            display: none
+        &__number
+            font-size: 12px
+            position: absolute
+            top: 4px
+            right: 33px
+        &__button
+            font-size: 10px
+            width: 116px
+            height: 28px
+            position: absolute
+            top: 24px
+            right: 18px
+            margin: 0
+    .partners
+        min-height: 340px
+    .title
+        margin-top: 15px
+        line-height: 13px
+    .subtitle
+        margin-top: 11px
+        padding: 0 28px
+    .maintext
+        padding: 90px 0 0px 0
+        &__title
+            margin-top: 53px
+            font-size: 30px
+            padding: 0 38px
+            margin-bottom: 0
+            line-height: 31px
+        &__subtitle
+            margin-top: 32px
+            font-size: 20px
+            padding: 0 26px
+        &__text
+            display: none
+        &__button
+            margin: 69px 0 32px
+    .reasons
+        padding: 25px 0 50px
+        .cards__container
+            margin: 0
+        .col-md-6
+            margin-top: 32px
+    .mobile
+        padding: 22px 0 43px
+        &__cardcontainer
+            margin-top: 0
+        &__item
+            width: 290px
+            height: 254px
+            &_subtitle
+                font-size: 17px
+                padding: 81px 46px 0
+        .subtitle
+            padding: 0 30px 0 25px
+    .choiseone
+        height: 390px
+        padding-top: 25px
+    .choisetwo
+        &__text
+            transform: translateY(-115px)
+            padding: 0 34px
+    .require
+        padding: 20px 0 26px
+        &__block
+            margin-top: 9px
+    .information
+        padding: 14px 11px 39px
+        &__towns
+            font-size: 14px
+            a
+                margin: 4px
+        &__descr
+            font-size: 11px
+            flex-wrap: wrap
+            margin-top: 0
+            &-item
+                margin-top: 13px
+            a
+                margin-right: 17px
