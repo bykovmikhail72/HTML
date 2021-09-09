@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" href="css/fonts.css">
 		<link rel="stylesheet" href="css/bootstrap-reboot.rtl.min.css">
 		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
@@ -15,10 +16,10 @@
 			<nav class="topnav__menu">
 				<div class="container">
 					<ul class="topnav__list">
-						<li class="topnav__item"><a class="topnav__link" href="#">Главная</a></li>
-						<li class="topnav__item"><a class="topnav__link" href="#">Со своим автомобилем</a></li>
-						<li class="topnav__item"><a class="topnav__link" href="#">На автомобиле компании</a></li>
-						<li class="topnav__item"><a class="topnav__link" href="#">Требования</a></li>
+						<li class="topnav__item"><a class="topnav__link" href="#partners">Главная</a></li>
+						<li class="topnav__item"><a class="topnav__link" href="#require">Со своим автомобилем</a></li>
+						<li class="topnav__item"><a class="topnav__link" href="#require">На автомобиле компании</a></li>
+						<li class="topnav__item"><a class="topnav__link" href="#require">Требования</a></li>
 						<li class="topnav__item"><a class="topnav__link" href="#">Контакты</a></li>
 						<li class="topnav__item"><a class="topnav__link" href="#">Оставить заявку</a></li>
 					</ul>
@@ -33,15 +34,16 @@
 			<div class="subheader">
 				<div class="container">
 					<div class="row">
-						<div class="subheader__top col-md-4 offset-md-1">
+						<div class="subheader__top col-6 col-md-4 offset-md-1">
 							<a href="#"><img src="icons/icon__title.png" alt="icon" class="subheader__iconimg"></a>
 							<div class="subheader__icontext">Официальный партнер Uber в Москве</div>
 						</div>
-						<div class="subheader__calling col-md-3 offset-md-1 col-xl-2 offset-xl-2">
+						<div class="xs-hidden subheader__calling col-md-3 offset-md-1 col-xl-2 offset-xl-2">
 							<div class="subheader__callus">Звоните нам ежедневно</div>
 							<a href="tel:+74957970988" class="subheader__number">8 495 797 09 88</a>
 						</div>
-						<div class="col-md-3 col-lg-2">
+						<div class="col-6 col-md-3 col-lg-2">
+							<a href="tel:+74957970988" class="xs-visible subheader__number">8 495 797 09 88</a>
 							<button class="subheader__button">заказать звонок</button>
 						</div>
 					</div>
@@ -49,7 +51,7 @@
 			</div>
 			</header>
 
-			<section class="partners">
+			<section class="partners" id="partners">
 				<div class="container">
 					<div class="row">
 						<div class="maintext col-md-12 offset-md-0 col-lg-10 offset-lg-1">
@@ -73,7 +75,7 @@
 					<div class="label">преимущества</div>
 					<div class="title">8 причин начать работать с нами</div>
 					<div class="cards row">
-						<div class="col-md-6 row">
+						<div class="col-12 col-md-6 row">
 							<div class="cards__container row">
 								<img src="img/reason_1.png" alt="1" class="cards__img">
 							</div>
@@ -237,7 +239,7 @@
                 </div>
 			</section>
 
-			<section class="require">
+			<section class="require" id="require">
 				<div class="container">
 					<h2 class="label">возможности</h2>
 					<h2 class="title">условия и требования</h2>

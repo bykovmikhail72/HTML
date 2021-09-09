@@ -11,7 +11,6 @@ hamburger.addEventListener('click', () => {
         menu.style.left = "0";
     }
 });
-console.log(list)
 list.forEach(item => {
     item.addEventListener('click', () => {
         hamburger.classList.remove('hamburger-active');
